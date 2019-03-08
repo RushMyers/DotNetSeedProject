@@ -6,11 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DotNetCoreTemplate.Api.Controllers
 {
+    /// <summary>
+    /// Values Controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        /// <summary>
+        /// Get All Values
+        /// </summary>
+        /// <returns>IEnumerable</returns>
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
