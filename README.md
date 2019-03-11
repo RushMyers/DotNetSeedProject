@@ -1,0 +1,2 @@
+# DotNetSeedProject
+.NET seed project
